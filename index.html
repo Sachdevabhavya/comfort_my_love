@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff0f4" />
+  <title>Avishka's Comfort Corner ♡</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">
+      <span class="brand-heart">♥</span>
+      <span>
+        <strong>Avishka's Comfort Corner <i>♥</i></strong>
+        <small>A little corner of the internet, made with love</small>
+      </span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <a href="#home">⌂ <span>Home</span></a>
+      <a href="#notes">♡ <span>Love Notes</span></a>
+      <a href="#comfort">♡ <span>Need a hug?</span></a>
+      <a href="#pamper">♧ <span>Pamper Me</span></a>
+      <a href="#about">☆ <span>About You</span></a>
+    </nav>
+
+    <span class="top-love">I love you ♡</span>
+  </header>
+
+  <main>
+    <!-- Welcome section -->
+    <section class="hero panel" id="home">
+      <div class="hero-copy">
+        <span class="love-seal" aria-hidden="true">made with<br>love ♡</span>
+        <p class="eyebrow">A safe little place for my favourite girl</p>
+        <h1>Hey, my Shona <span>♡</span></h1>
+
+        <p class="hero-text">
+          I know you might be feeling low right now, baby.
+          You don't have to pretend you're okay, smile for me,
+          or be strong every second. I'm here for you through
+          every up and down.
+        </p>
+
+        <p class="script">
+          Take your time, rest, and let me take care of you… ♡
+        </p>
+
+        <p class="signature">— Always, Bhavya</p>
+        <button class="primary" id="heroHug">♥ Give me a hug</button>
+      </div>
+
+      <div class="hero-art" role="img" aria-label="A teddy bear hugging a heart">
+        <div class="hero-ribbon" aria-hidden="true">for my Shona ♡</div>
+        <div class="sun-glow"></div>
+        <div class="window"><span></span><span></span><span></span></div>
+        <div class="cloud cloud-one"></div>
+        <div class="cloud cloud-two"></div>
+
+        <div class="teddy big-teddy">
+          <div class="ear left"></div>
+          <div class="ear right"></div>
+          <div class="head">
+            <i class="eye e1"></i>
+            <i class="eye e2"></i>
+            <i class="snout">⌣</i>
+            <i class="nose"></i>
+            <i class="blush b1"></i>
+            <i class="blush b2"></i>
+          </div>
+          <div class="body"></div>
+          <div class="arm a1"></div>
+          <div class="arm a2"></div>
+          <div class="heart-plush">♥</div>
+          <div class="leg l1"></div>
+          <div class="leg l2"></div>
+        </div>
+
+        <div class="art-note">you are<br>so loved ♡</div>
+        <div class="sparkle s1">✦</div>
+        <div class="sparkle s2">♡</div>
+        <div class="sparkle s3">✧</div>
+      </div>
+    </section>
+
+    <!-- Love notes -->
+    <section class="panel notes-section" id="notes">
+      <div class="section-heading">
+        <span class="section-icon">♡</span>
+        <div>
+          <h2>Love Notes</h2>
+          <p>A little jar of love, just for you ♥</p>
+        </div>
+      </div>
+
+      <div class="notes-layout">
+        <div class="jar-wrap">
+          <div class="jar-lid"></div>
+          <div class="jar">
+            <div class="jar-bow">♡</div>
+            <div class="paper-stack">♡　♥　♡<br>♥　♡　♥<br>♡　♥　♡</div>
+            <div class="jar-label">Open when<br>you need a little<br>extra love ♡</div>
+          </div>
+          <button class="soft-button" id="openNote">♥ Open a note</button>
+        </div>
+
+        <div class="note-card">
+          <span class="tape"></span>
+          <p class="note-kicker">A little note for you</p>
+          <p id="noteText">
+            You are so special, Avishka. Not just because of who
+            you are, but because of the kindness and love you bring
+            into my world. Even on hard days, you're my favourite
+            person. Always.
+          </p>
+          <p class="note-sign">I love you ♡<br><small>— Bhavya</small></p>
+          <button class="outline-button" id="anotherNote">↻ Get another note</button>
+        </div>
+      </div>
+
+      <p class="tiny-hint">
+        For all the days you need a reminder: you are loved,
+        you are precious, and you never have to face a hard moment alone.
+      </p>
+    </section>
+
+    <!-- Comfort section -->
+    <section class="panel comfort-section" id="comfort">
+      <div class="section-heading">
+        <span class="section-icon">♡</span>
+        <div>
+          <h2>I'm Hurting</h2>
+          <p>It's okay not to be okay ♥</p>
+        </div>
+      </div>
+
+      <p class="section-intro">
+        Cramps can be exhausting, sweetheart. Choose what you need,
+        or just read this little reminder from me.
+      </p>
+
+      <div class="comfort-options">
+        <button class="choice" data-comfort="hug">
+          <span class="choice-icon">♡</span>
+          <span><strong>A warm hug</strong><small>A virtual hug, just for you</small></span>
+          <b>›</b>
+        </button>
+
+        <button class="choice" data-comfort="message">
+          <span class="choice-icon">☏</span>
+          <span><strong>A comforting message</strong><small>To remind you you're not alone</small></span>
+          <b>›</b>
+        </button>
+
+        <button class="choice" data-comfort="breathe">
+          <span class="choice-icon">☁</span>
+          <span><strong>Breathing & relaxation</strong><small>A tiny pause for your body</small></span>
+          <b>›</b>
+        </button>
+
+        <button class="choice" data-comfort="care">
+          <span class="choice-icon">♡</span>
+          <span><strong>A little extra love</strong><small>Let me spoil you softly</small></span>
+          <b>›</b>
+        </button>
+      </div>
+
+      <div class="comfort-response" id="comfortResponse" aria-live="polite">
+        “You can be cranky, sleepy, quiet, or sad with me.
+        You don't have to do anything. I'll love you through all of it.”
+        <span>— Bhavya ♡</span>
+      </div>
+    </section>
+
+    <!-- Pampering menu -->
+    <section class="panel pamper-section" id="pamper">
+      <div class="section-heading">
+        <span class="section-icon">☕</span>
+        <div>
+          <h2>Pamper Me</h2>
+          <p>Tell me what you need, baby ♥</p>
+        </div>
+      </div>
+
+      <p class="section-intro">
+        Pick anything you'd like me to do for you right now.
+        You deserve all the love and care in the world.
+      </p>
+
+      <div class="pamper-grid">
+        <button class="pamper-choice" data-pamper="Hot chocolate & snacks">
+          <span>☕</span><strong>Hot chocolate<br>& snacks</strong>
+        </button>
+        <button class="pamper-choice" data-pamper="A cosy blanket">
+          <span>🧸</span><strong>A cosy<br>blanket</strong>
+        </button>
+        <button class="pamper-choice" data-pamper="Your favourite food">
+          <span>🍕</span><strong>Your favourite<br>food</strong>
+        </button>
+        <button class="pamper-choice" data-pamper="A movie night together">
+          <span>🎬</span><strong>A movie night<br>(even on call)</strong>
+        </button>
+        <button class="pamper-choice" data-pamper="A warm heating pad">
+          <span>♨️</span><strong>A warm<br>heating pad</strong>
+        </button>
+        <button class="pamper-choice" data-pamper="Just being close to you">
+          <span>♥</span><strong>Just being<br>close to you</strong>
+        </button>
+      </div>
+
+      <button class="primary wide" id="pamperSend">
+        ♥ I just want to be close to you
+      </button>
+      <p class="selection-feedback" id="pamperFeedback" aria-live="polite"></p>
+    </section>
+
+    <!-- Reasons and memories -->
+    <section class="panel reasons-section" id="reasons">
+      <div class="section-heading">
+        <span class="section-icon">♡</span>
+        <div>
+          <h2>Reasons I Love You</h2>
+          <p>And I could keep going forever ♥</p>
+        </div>
+      </div>
+
+      <div class="reason-card" id="reasonCard">
+        <span class="reason-number" id="reasonNumber">01</span>
+        <span class="reason-heart">♥</span>
+        <p id="reasonText">I love the way you smile.</p>
+        <span class="reason-sparkle">✦　♡　✦</span>
+      </div>
+
+      <button class="primary reason-button" id="anotherReason">
+        Tell me another reason ♡
+      </button>
+    </section>
+
+    <section class="panel memories-section" id="memories">
+      <div class="section-heading">
+        <span class="section-icon">✧</span>
+        <div>
+          <h2>Our Memory Lane</h2>
+          <p>The moments I keep closest to my heart ♥</p>
+        </div>
+      </div>
+
+      <div class="memory-timeline">
+        <article class="memory-card first-memory">
+          <span class="memory-pin">♥</span>
+          <p class="memory-label">Our first date</p>
+          <h3>Naturals & chickoo ice cream</h3>
+          <p>
+            We were still at the beginning of us, sitting together at Naturals
+            and sharing chickoo ice cream. It still lives in my heart, and I
+            will always cherish that sweet little day.
+          </p>
+        </article>
+
+        <div class="memory-line" aria-hidden="true">♡</div>
+
+        <article class="memory-card future-memory">
+          <span class="memory-pin">✦</span>
+          <p class="memory-label">The future I dream about</p>
+          <h3>One day, I want to marry my Avishka</h3>
+          <p>
+            From that very first date, a little part of me already knew.
+            I want to keep choosing you, building a life with you, and
+            loving you for all our tomorrows.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel countdown-section" id="countdowns">
+      <div class="section-heading">
+        <span class="section-icon">♡</span>
+        <div>
+          <h2>Little Dates To Look Forward To</h2>
+          <p>Every year gives me another reason to celebrate you ♥</p>
+        </div>
+      </div>
+
+      <div class="countdown-grid">
+        <div class="countdown-card">
+          <span>🎂</span>
+          <strong>Avishka's Birthday</strong>
+          <b data-countdown="09-22">Loading love...</b>
+        </div>
+        <div class="countdown-card">
+          <span>💞</span>
+          <strong>Our Anniversary</strong>
+          <b data-countdown="08-01">Loading love...</b>
+        </div>
+        <div class="countdown-card">
+          <span>🌷</span>
+          <strong>The Day We First Met</strong>
+          <b data-countdown="04-02">Loading love...</b>
+        </div>
+        <div class="countdown-card">
+          <span>🗽</span>
+          <strong>Times Square Memory</strong>
+          <b data-countdown="07-16">Loading love...</b>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive teddy -->
+    <section class="panel teddy-section">
+      <div class="section-heading">
+        <span class="section-icon">♧</span>
+        <div>
+          <h2>My Little Teddy</h2>
+          <p>Hugs, kisses and endless love ♥</p>
+        </div>
+      </div>
+
+      <div class="teddy-content">
+        <div class="teddy-stage">
+          <div class="teddy small-teddy">
+            <div class="ear left"></div>
+            <div class="ear right"></div>
+            <div class="head">
+              <i class="eye e1"></i>
+              <i class="eye e2"></i>
+              <i class="snout">⌣</i>
+              <i class="nose"></i>
+              <i class="blush b1"></i>
+              <i class="blush b2"></i>
+            </div>
+            <div class="body"></div>
+            <div class="arm a1"></div>
+            <div class="arm a2"></div>
+            <div class="heart-plush">♥</div>
+            <div class="leg l1"></div>
+            <div class="leg l2"></div>
+          </div>
+
+          <div class="speech-bubble" id="teddySpeech">
+            I'm here for you, always ♡
+          </div>
+        </div>
+
+        <div class="teddy-actions">
+          <button class="outline-button teddy-action" data-teddy="hug">🧸 Hug me</button>
+          <button class="outline-button teddy-action" data-teddy="kiss">😘 Kiss me</button>
+          <button class="outline-button teddy-action" data-teddy="pretty">♡ Tell me I'm pretty</button>
+          <button class="outline-button teddy-action" data-teddy="love">☆ I love you</button>
+          <button class="outline-button teddy-action" data-teddy="dance">✧ Play a cute animation</button>
+        </div>
+      </div>
+
+      <p class="tiny-hint centered">
+        Official reminder: you are my favourite person in the whole wide world. ♡
+      </p>
+    </section>
+
+    <!-- Affirmations -->
+    <section class="panel about-section" id="about">
+      <div class="section-heading">
+        <span class="section-icon">☆</span>
+        <div>
+          <h2>About You</h2>
+          <p>Because you're so, so special ♥</p>
+        </div>
+      </div>
+
+      <div class="affirmations">
+        <div>♡<p>You're beautiful<br>inside and out</p></div>
+        <div>✿<p>You have the<br>kindest heart</p></div>
+        <div>☼<p>You make my<br>world brighter</p></div>
+        <div>☆<p>You're stronger<br>than you think</p></div>
+        <div>♥<p>You are<br>so loved</p></div>
+        <div>✧<p>Your smile makes<br>my heart dance</p></div>
+        <div>☁<p>You make every<br>day feel softer</p></div>
+        <div>❀<p>You are my<br>favourite thought</p></div>
+        <div>♡<p>Your love feels<br>like coming home</p></div>
+        <div>☾<p>Even your quiet<br>moments are lovely</p></div>
+        <div>♥<p>You are my<br>sweetest blessing</p></div>
+        <div>✦<p>My world is brighter<br>because you exist</p></div>
+      </div>
+    </section>
+
+    <!-- Closing message -->
+    <section class="closing panel">
+      <div class="closing-stars">✦　♡　✧　♥　✦</div>
+      <p class="script">
+        No matter what, I'll always choose you.<br>
+        Today, tomorrow, and every day.
+      </p>
+      <h2>I love you, Avishka ♡</h2>
+      <p>— Bhavya</p>
+      <div class="closing-hearts">♥　♡　♥</div>
+      <button class="secret-button" id="secretSurprise">♡ A tiny secret ♡</button>
+    </section>
+  </main>
+
+  <footer>
+    Made with all my love, for my Shona ♡
+    <span>Always yours, Bhavya</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
